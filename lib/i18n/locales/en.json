@@ -39,7 +39,9 @@
     "logout": "Logout",
     "profile": "Profile",
     "user": "User",
-    "viewAll": "View all"
+    "viewAll": "View all",
+    "or": "Or",
+    "optional": "Optional"
   },
   "auth": {
     "login": "Login",

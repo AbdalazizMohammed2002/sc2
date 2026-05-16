@@ -39,7 +39,9 @@
     "logout": "Déconnexion",
     "profile": "Profil",
     "user": "Utilisateur",
-    "viewAll": "Voir tout"
+    "viewAll": "Voir tout",
+    "or": "Ou",
+    "optional": "Optionnel"
   },
   "auth": {
     "login": "Se connecter",

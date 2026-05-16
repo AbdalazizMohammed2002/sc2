@@ -198,7 +198,7 @@ export const useAuthStore = create<AuthState>()(
                 email: session.user.email || '',
                 firstName: session.user.user_metadata?.first_name || 'Utilisateur',
                 lastName: session.user.user_metadata?.last_name || '',
-                role: 'TEACHER',
+                role: session.user.user_metadata?.role || 'TEACHER',
                 status: 'PENDING',
                 isActive: true,
               };
@@ -213,7 +213,7 @@ export const useAuthStore = create<AuthState>()(
               email: session.user.email || '',
               firstName: session.user.user_metadata?.first_name || 'Utilisateur',
               lastName: session.user.user_metadata?.last_name || '',
-              role: 'TEACHER',
+              role: session.user.user_metadata?.role || 'TEACHER',
               status: 'PENDING',
               isActive: true,
             };
