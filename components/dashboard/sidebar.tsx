@@ -25,6 +25,7 @@ import {
   FileQuestion,
   UserCheck,
   BarChart3,
+  User,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -59,6 +60,7 @@ const navItems: NavItem[] = [
   { titleKey: 'nav.messages', href: '/messages', icon: MessageSquare, permission: 'messages.view' },
   { titleKey: 'nav.notifications', href: '/notifications', icon: Bell, permission: 'notifications.view' },
   { titleKey: 'nav.reports', href: '/reports', icon: BarChart3, permission: 'reports.view' },
+  { titleKey: 'nav.profile', href: '/profile', icon: User, permission: 'profile.view' },
   { titleKey: 'nav.userValidation', href: '/admin/users', icon: UserCheck, permission: 'user_validation.view' },
   { titleKey: 'nav.settings', href: '/settings', icon: Settings, permission: 'settings.view' },
 ];
